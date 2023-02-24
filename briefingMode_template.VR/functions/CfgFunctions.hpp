@@ -9,6 +9,7 @@ class CfgFunctions
 			class hintRadio {};
 			class hintGroup {};
 			class startMission {};
+			class getIdentity {};
 		};
 	};
 };
