@@ -1,0 +1,31 @@
+/* Mission information */
+class Header
+{
+	gameType   =  COOP; // Game type
+	minPlayers =  1;    // minimum number of players the mission supports
+	maxPlayers = 4;	// maximum number of players the mission supports
+};
+
+/* onLoadName */
+author			= "D.Anderson";
+OnLoadName		= "Briefing Mode - Template";
+//OnLoadMission	= "";
+//loadScreen		= "resources\loadScreen.paa";
+
+overviewText = "You are a mercenary. You came to make money. But what will you do? /nTODO";
+
+/* respawn */
+respawn = 3; /* 0 - NONE # 1 - BIRD # 3 - BASE # 4 - GROUP # 5 - SIDE */
+respawnOnStart = -1; 
+respawnDelay = 10;
+respawnTemplates[] = {"ace_spectator","Counter","Wave"};
+
+
+/* Mission Settings */
+saving = 0; 
+aiKills = 0;
+disabledAI = 1;
+enableDebugConsole = 1;
+allowFunctionsRecompile = 1;
+
+#include "functions\CfgFunctions.hpp"

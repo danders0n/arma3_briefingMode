@@ -1,0 +1,1 @@
+missionNamespace setVariable ["dAn_brefingMode", false, true];
