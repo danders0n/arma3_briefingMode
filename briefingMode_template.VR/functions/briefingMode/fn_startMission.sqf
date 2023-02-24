@@ -1,3 +1,21 @@
+/*
+ *	Author: D.Anderson
+ *	Lorem
+ *	
+ *	Arguments:
+ *	None
+ *	
+ *	Return Value:
+ *	Structured Text
+ *	
+ *	Example:
+ *	[] call dAn_fnc_startMission
+ *	
+ * 	Public: No
+ */
+
+// TODO: privates
+
 _missionName = getMissionConfigValue "OnLoadName";
 _missionAuthor = ["by", getMissionConfigValue "author"] joinString " ";
 

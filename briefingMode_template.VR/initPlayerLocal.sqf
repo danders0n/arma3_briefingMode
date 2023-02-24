@@ -12,4 +12,4 @@ _didJIP = _this select 1;
 
 waituntil {! isnull _unit};
 
-[] call dAn_fnc_initBrieafingMode;
+[_unit] call dAn_fnc_initBriefingMode;
