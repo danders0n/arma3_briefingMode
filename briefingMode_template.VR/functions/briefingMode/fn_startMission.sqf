@@ -16,6 +16,13 @@
 
 // TODO: privates
 
+params[["_unit", player]];
+
+_actionEH = _unit getVariable "briefingMode_actionEh";
+
+[_unit, "blockThrow", "dAn_brefingMode", false] call ace_common_fnc_statusEffect_set;
+[_unit, "DefaultAction", _actionEH] call ace_common_fnc_removeActionEventHandler;
+
 _missionName = getMissionConfigValue "OnLoadName";
 _missionAuthor = ["by", getMissionConfigValue "author"] joinString " ";
 

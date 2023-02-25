@@ -16,7 +16,7 @@
 
 params[["_unit", player]];
 
-[_unit, "blockThrow", "dAn_brefingMode", true] call ace_common_fnc_statusEffect_set; 
+[_unit] call dAn_fnc_disableWeapons;
 
 ["start", {
     missionNamespace setVariable ["dAn_brefingMode", true, true];
@@ -27,8 +27,7 @@ params[["_unit", player]];
 			private _unit = _this select 0;
 			//systemchat str _unit;
 			hintSilent "";
-			[] call dAn_fnc_startMission;
-			[_unit, "blockThrow", "dAn_brefingMode", false] call ace_common_fnc_statusEffect_set;
+			[_unit] call dAn_fnc_startMission;
 		},
 		[_thisArgs],
 		5
