@@ -1,5 +1,5 @@
 # arma3_briefingMode
-CopyCat of ShacTac "SafeMode", yay!!! 
+CopyCat of ShacTac "SafeMode" 
 
 Admin have noew command 
 ` #start `
